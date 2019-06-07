@@ -25,17 +25,15 @@
       border-radius: 20px;
       height: 100%;
 
-      img.blast{
-      
-        width: 28%;
-
-        @media @phone{
-        
-          width: 100%;
-        }
-    
+        @media @phone {
+          width: 90%;
         }
       }
+      // .blast{
+      //   @media @phone{
+      //     border: 1px solid red;
+      //   }
+      // }
     }
   
 
@@ -84,7 +82,7 @@
       }
 
       .btn{
-        .button-creator(200px, 45px, @btn-bg-color, @footer-font-color, 1.8rem);
+        .button-creator(200px, 45px, @btn-bg-color, white, 1.8rem);
         
         @media @phone{
           width: 100%;
@@ -125,4 +123,5 @@
       display: none;
     }
   }
+  
 }// home

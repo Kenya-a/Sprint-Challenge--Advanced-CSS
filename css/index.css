@@ -228,12 +228,9 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
-.home .space-images img img.blast {
-  width: 28%;
-}
 @media (max-width: 500px) {
-  .home .space-images img img.blast {
-    width: 100%;
+  .home .space-images img {
+    width: 90%;
   }
 }
 .home .visit-planets {
@@ -289,8 +286,8 @@ footer {
   width: 200px;
   height: 45px;
   background-color: #22283A;
-  color: #81848E;
-  border: 1px solid #dee2e6;
+  color: white;
+  border: 1px solid #22283A;
   cursor: pointer;
   font-size: 1.8rem;
 }
