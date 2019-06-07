@@ -228,6 +228,9 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+.home .space-images img img.blast {
+  width: 28%;
+}
 @media (max-width: 500px) {
   .home .space-images img img.blast {
     width: 100%;
@@ -322,10 +325,16 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home img.sky {
+  width: 28%;
+}
 @media (max-width: 500px) {
   .home img.sky {
     display: none;
   }
+}
+.home img.launch {
+  width: 28%;
 }
 @media (max-width: 500px) {
   .home img.launch {
