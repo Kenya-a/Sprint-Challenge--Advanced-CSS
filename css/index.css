@@ -193,7 +193,7 @@ p {
 @media (max-width: 500px) {
   .main-navigation .nav {
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 .main-navigation .nav a {
@@ -227,6 +227,11 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images img img.blast {
+    width: 100%;
+  }
 }
 .home .visit-planets {
   padding: 15px;
@@ -325,10 +330,5 @@ footer {
 @media (max-width: 500px) {
   .home img.launch {
     display: none;
-  }
-}
-@media (max-width: 500px) {
-  .home img.launch img.blast {
-    width: 100%;
   }
 }
